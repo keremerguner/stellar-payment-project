@@ -1,0 +1,24 @@
+[package]
+name = "stellar-payment-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = { version = "21.6.0", default-features = false }
+
+[dev-dependencies]
+soroban-sdk = { version = "21.6.0", features = ["testutils"] }
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+debug = 0
+strip = "symbols"
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
+lto = true
+
+[profile.release-with-logs]
+inherits = "release"
+debug-assertions = true
