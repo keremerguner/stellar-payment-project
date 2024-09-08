@@ -40,3 +40,11 @@
 
 >`public key:` GAPQWWZU32FLM75KYM6QR2WNLYCTDDYRTRWZQQ3MTRBAA7BVGUFRARVT
 `secret key:` SDHA3AJVJBHYAEFTVFA2TGNDYX3VFT4DFUPP6ZULHX5VSIRFHIRS2GOY
+
+
+# Test İçin:
+- Tekli transfer için: node transfer.js
+- Çoklu hesaplar arası transfer : node multiTtransfer.js
+- Bakiye sorgulama : node balance.js
+- Zamana bağlı düzenli ödeme : scheduledPayment.js
+- Hello RPC ve transfer func: cargo build , cargo test
