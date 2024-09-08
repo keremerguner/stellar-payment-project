@@ -48,3 +48,6 @@
 - Bakiye sorgulama : node balance.js
 - Zamana bağlı düzenli ödeme : scheduledPayment.js
 - Hello RPC ve transfer func: cargo build , cargo test
+
+# REACT ile UI yapıldı Frontend ve Backend bağlandı
+- Erişmek için lütfen iletişime geçin, frontend ve backend private repomda bulunuyor.
